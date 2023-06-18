@@ -1,5 +1,16 @@
+@import "./themes";
+
 main {
   height: 100svh;
   width: 100svw;
-  background-color: blue;
+  background-color: $backGround;
+
+  .navigation-bar {
+    height: 3rem;
+    width: 100%;
+  }
+  .body {
+    height: calc(100% - 3rem);
+    width: 100%;
+  }
 }

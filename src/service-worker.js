@@ -78,9 +78,11 @@ self.addEventListener('install', event => {
         '/*',
         '/*/*',
         '/*/*/*'
-        // Add all other resources you want to cache
       ]);
     })
   );
 });
-// Any other custom service worker logic can go here.
+
+self.addEventListener("activate", (event) => {
+  console.log("sdfghbj");
+});

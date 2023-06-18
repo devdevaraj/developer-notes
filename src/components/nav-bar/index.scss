@@ -1,0 +1,14 @@
+@import "../../themes";
+
+.nav-bar {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    padding-inline: 0.5rem;
+    background-color: $shade2;
+    align-items: center;
+
+    h2 {
+        color: $backGround;
+    }
+}
